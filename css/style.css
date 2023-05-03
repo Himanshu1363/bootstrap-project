@@ -1,0 +1,125 @@
+.nav-sep{
+    border-right: 1px solid grey;
+}
+.hero {
+    background-image: url('../1.jpg');
+    height: 500px;
+    background-size: cover;
+}
+.content {
+    padding:90px 0 0 100px;
+    color: white;
+    width: 690px;
+
+}
+.img-header{
+    position: relative;
+}
+.tag {
+    position: absolute;
+    top: 0;
+    background-color: rgb(235, 113, 0);
+    padding: 8px 26px;
+    color: white;
+    border-radius:12px 0 6px 0 ;
+}
+
+.search {
+    padding:10px;
+    width: 520px;
+    box-sizing: border-box;
+    border: 1px solid #f2c71b;
+}
+.search:hover{
+    outline:none;
+    border: 1px solid  rgb(235, 113, 0) ;
+}
+.search:focus{
+    outline:none;
+    border: 1px solid  rgb(235, 113, 0) ;
+}
+.search-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.search-btn {
+    margin-left:-100px;
+}
+@media(max-width:586px){
+    .hero-lg{
+        display:none;
+    }
+    .hero-mobile{
+        display: block;
+    }
+}
+
+
+/* large screen */
+@media(min-width:586px){
+.hero-lg{
+    display:block;
+}
+.hero-mobile{
+    display: none;
+}
+}
+
+
+.side-hero-1{
+    background-image: url('../panel-careers.jpg');
+    height: 560px;
+    background-size: cover;
+    border-radius: 12px;
+}
+.side-hero-content {
+    padding:70px;
+    padding-top:160px;
+
+}
+.side-hero-2{
+    background-image: url('../panel-life-xl.jpg');
+    height: 560px;
+    background-size: cover;
+    border-radius: 12px;
+}
+.nav-link {
+    transition: 400ms;
+    padding: 0 10px !important;
+    color: black;
+    font-weight: bold;
+    border-bottom:5px solid white ;
+}
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235, 113, 0);
+  }
+
+
+  @media(max-width:768px){
+    .hide-lg{
+        display:none;
+    }
+    .hide-sm{
+        display: block;
+    }
+}
+
+
+/* large screen */
+@media(min-width:768px){
+.hide-lg{
+    display:block;
+}
+.hide-sm{
+    display: none;
+}
+}
+.decor a {
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.decor a:hover{
+    text-decoration:underline;
+}
